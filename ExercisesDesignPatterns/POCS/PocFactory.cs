@@ -1,5 +1,4 @@
-﻿using DecoratorPattern;
-using FactoryPattern;
+﻿using FactoryPattern;
 using FactoryPattern.Contracts;
 using System;
 
