@@ -20,18 +20,24 @@ namespace ExercisesDesignPatterns
         public static void DrawMainScreen()
         {
             Console.Clear();
-            Console.WriteLine("|******************************************************************************|");
-            Console.WriteLine("|                       Exercises from Design Patterns                         |");
-            Console.WriteLine("|******************************************************************************|");
-            Console.WriteLine("| Options                                                                      |");
-            Console.WriteLine("|      1 - Singleton Pattern (Default)                                         |");
-            Console.WriteLine("|      2 - Singleton Pattern (Generics)                                        |");
-            Console.WriteLine("|      3 - Adapter Pattern                                                     |");
-            Console.WriteLine("|      4 - Decorator Pattern                                                   |");
-            Console.WriteLine("|      5 - Facade Pattern                                                      |");
-            Console.WriteLine("|******************************************************************************|");
-            Console.WriteLine("| Choose one option to continue...                                             |");
-            Console.WriteLine("|******************************************************************************|");
+            Console.WriteLine("|*********************************************************************************************************************|");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|*********************************************************************************************************************|");
+            Console.WriteLine("|                                            Exercises from Design Patterns                                           |");
+            Console.WriteLine("|*********************************************************************************************************************|");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                        Options:                                                                     |");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                            1 - Singleton Pattern (Default)                                          |");
+            Console.WriteLine("|                                            2 - Singleton Pattern (Generics)                                         |");
+            Console.WriteLine("|                                            3 - Adapter Pattern                                                      |");
+            Console.WriteLine("|                                            4 - Decorator Pattern                                                    |");
+            Console.WriteLine("|                                            5 - Facade Pattern                                                       |");
+            Console.WriteLine("|                                            0 - Exit                                                                 |");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|*********************************************************************************************************************|");
+            Console.WriteLine("| Choose one option to continue...                                                                                    |");
+            Console.WriteLine("|*********************************************************************************************************************|");
 
             var option = Console.ReadLine();
 
@@ -78,6 +84,10 @@ namespace ExercisesDesignPatterns
                         pocFacade.StartFacadeTest();
 
                         DrawMainScreen();
+                        break;
+
+                    case 0:
+                        Environment.Exit(0);
                         break;
 
                     default:
