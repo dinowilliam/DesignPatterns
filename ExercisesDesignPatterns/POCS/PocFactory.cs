@@ -1,5 +1,6 @@
 ﻿using DecoratorPattern;
 using FactoryPattern;
+using FactoryPattern.Contracts;
 using System;
 
 namespace ExercisesDesignPatterns.POCS
@@ -21,21 +22,21 @@ namespace ExercisesDesignPatterns.POCS
 
             Console.WriteLine("     ");
             Console.WriteLine("     Generic Computer Class: ");
-            var genericComputer = computerFactory.GetComputer(0);
+            var genericComputer = computerFactory.GetComputer(ComputerType.GenericComputer);
 
             Console.WriteLine("         Type: {0}", genericComputer.Type);
             Console.WriteLine("         Speed: {0}", genericComputer.SpeedMHZ);
 
             Console.WriteLine("     ");
             Console.WriteLine("     IBM Computer Class: ");
-            var ibmComputer = computerFactory.GetComputer(1);
+            var ibmComputer = computerFactory.GetComputer(ComputerType.IBMComputer);
 
             Console.WriteLine("         Type: {0}", ibmComputer.Type);
             Console.WriteLine("         Speed: {0}", ibmComputer.SpeedMHZ);
 
             Console.WriteLine("     ");
             Console.WriteLine("     COMPAQ Computer Class: ");
-            var compaqComputer = computerFactory.GetComputer(2);
+            var compaqComputer = computerFactory.GetComputer(ComputerType.COMPAQComputer);
 
             Console.WriteLine("         Type: {0}", compaqComputer.Type);
             Console.WriteLine("         Speed: {0}", compaqComputer.SpeedMHZ);

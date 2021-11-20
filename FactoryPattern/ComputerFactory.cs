@@ -6,17 +6,17 @@ namespace FactoryPattern
 {
     public class ComputerFactory {
        
-            public IComputer GetComputer(int type) {
+            public IComputer GetComputer(ComputerType type) {
 
                 switch (type) {
                     
-                    case 0:
+                    case ComputerType.GenericComputer:
                         return new ComputerProduct();
 
-                    case 1:
+                    case ComputerType.IBMComputer:
                         return new IBMComputerProduct();
 
-                    case 2:
+                    case ComputerType.COMPAQComputer:
                         return new COMPAQComputerProduct();
 
                     default:
