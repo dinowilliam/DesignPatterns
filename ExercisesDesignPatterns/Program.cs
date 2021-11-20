@@ -20,8 +20,9 @@ namespace ExercisesDesignPatterns
         public static void DrawMainScreen()
         {
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("|*********************************************************************************************************************|");
-            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                                  dinowilliam.com                                                    |");
             Console.WriteLine("|*********************************************************************************************************************|");
             Console.WriteLine("|                                            Exercises from Design Patterns                                           |");
             Console.WriteLine("|*********************************************************************************************************************|");
@@ -33,6 +34,7 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                            3 - Adapter Pattern                                                      |");
             Console.WriteLine("|                                            4 - Decorator Pattern                                                    |");
             Console.WriteLine("|                                            5 - Facade Pattern                                                       |");
+            Console.WriteLine("|                                            6 - Command Pattern                                                      |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|*********************************************************************************************************************|");
@@ -82,6 +84,13 @@ namespace ExercisesDesignPatterns
                     case 5:
                         var pocFacade = new PocFacade();
                         pocFacade.StartFacadeTest();
+
+                        DrawMainScreen();
+                        break;
+
+                    case 6:
+                        var pocCommand = new PocCommand();
+                        pocCommand.StartCommandTest();
 
                         DrawMainScreen();
                         break;
