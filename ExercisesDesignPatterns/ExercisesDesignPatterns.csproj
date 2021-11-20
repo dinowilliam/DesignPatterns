@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="POCS\PocCommand.cs" />
+    <Compile Include="POCS\PocFactory.cs" />
     <Compile Include="POCS\PocDecorator.cs" />
     <Compile Include="POCS\PocAdapter.cs" />
     <Compile Include="POCS\PocFacade.cs" />
@@ -71,6 +72,10 @@
     <ProjectReference Include="..\FacadePattern\FacadePattern.csproj">
       <Project>{03dd3744-cab0-49a6-9b77-2e22f36ef7bf}</Project>
       <Name>FacadePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj">
+      <Project>{69F81374-76A6-4A1C-B281-420CD50F3E84}</Project>
+      <Name>FactoryPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj">
       <Project>{4fd487eb-3b97-4c77-912b-0d5bcedea781}</Project>

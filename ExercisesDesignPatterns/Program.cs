@@ -35,6 +35,8 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                            4 - Decorator Pattern                                                    |");
             Console.WriteLine("|                                            5 - Facade Pattern                                                       |");
             Console.WriteLine("|                                            6 - Command Pattern                                                      |");
+            Console.WriteLine("|                                            7 - Factory Pattern                                                      |");
+            Console.WriteLine("|                                            8 - Abstract Factory Pattern                                             |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|*********************************************************************************************************************|");
@@ -91,6 +93,18 @@ namespace ExercisesDesignPatterns
                     case 6:
                         var pocCommand = new PocCommand();
                         pocCommand.StartCommandTest();
+
+                        DrawMainScreen();
+                        break;
+
+                    case 7:
+                        var pocFactory = new PocFactory();
+                        pocFactory.StartFactoryTest();
+
+                        DrawMainScreen();
+                        break;
+
+                    case 8:                        
 
                         DrawMainScreen();
                         break;

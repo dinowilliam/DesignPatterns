@@ -1,20 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FactoryPattern.Concretes;
+using FactoryPattern.Contracts;
+using System;
 
 namespace FactoryPattern
 {
-    public class ComputerFactory{
+    public class ComputerFactory {
        
-            public ComputerProduct GetComputer(int type) {
+            public IComputer GetComputer(int type) {
 
                 switch (type) {
+                    
+                    case 0:
+                        return new ComputerProduct();
+
                     case 1:
                         return new IBMComputerProduct();
+
                     case 2:
                         return new COMPAQComputerProduct();
+
                     default:
                         throw new NotSupportedException();
                 }
