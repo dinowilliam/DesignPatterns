@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="POCS\PocDecorator.cs" />
     <Compile Include="POCS\PocAdapter.cs" />
     <Compile Include="POCS\PocFacade.cs" />
     <Compile Include="POCS\PocSingleton.cs" />
@@ -57,6 +58,10 @@
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj">
       <Project>{6097202c-0434-4364-a840-a908538a7751}</Project>
       <Name>AdapterPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
+      <Project>{EE7C2C42-D65C-46DB-BC8A-85A5F177E1B2}</Project>
+      <Name>DecoratorPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\FacadePattern\FacadePattern.csproj">
       <Project>{03dd3744-cab0-49a6-9b77-2e22f36ef7bf}</Project>

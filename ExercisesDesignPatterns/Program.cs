@@ -67,7 +67,9 @@ namespace ExercisesDesignPatterns
                         DrawMainScreen();
                         break;
 
-                    case 4:                        
+                    case 4:
+                        var pocDecorator = new PocDecorator();
+                        pocDecorator.StartDecoratorTest();
                         DrawMainScreen();
                         break;
 
