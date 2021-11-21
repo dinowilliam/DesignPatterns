@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="ConcreteFactory.cs" />
+    <Compile Include="Concretes\COMPAQComputerProduct.cs" />
+    <Compile Include="Concretes\ComputerProduct.cs" />
+    <Compile Include="Concretes\IBMComputerProduct.cs" />
+    <Compile Include="Contracts\IAbstractFactory.cs" />
+    <Compile Include="Contracts\IComputer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

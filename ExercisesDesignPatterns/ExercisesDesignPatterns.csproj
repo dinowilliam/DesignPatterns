@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="POCS\PocCommand.cs" />
+    <Compile Include="POCS\PocAbstractFactory.cs" />
     <Compile Include="POCS\PocFactory.cs" />
     <Compile Include="POCS\PocDecorator.cs" />
     <Compile Include="POCS\PocAdapter.cs" />
@@ -57,6 +58,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AbstractFactoryPattern\AbstractFactoryPattern.csproj">
+      <Project>{BFA2CB07-DFE0-4191-AFB4-ACBD16DA99E3}</Project>
+      <Name>AbstractFactoryPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj">
       <Project>{6097202c-0434-4364-a840-a908538a7751}</Project>
       <Name>AdapterPattern</Name>

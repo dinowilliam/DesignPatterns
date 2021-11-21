@@ -30,7 +30,17 @@
       "ProjectGuid": "5cc4e018-1ce7-40e9-b05c-1d4d63ed469f",
       "DisplayName": "ExercisesDesignPatterns",
       "ColorIndex": 5
+    },
+    "dd711a1e-b642-45a1-9449-5fa03b801416": {
+      "ProjectGuid": "dd711a1e-b642-45a1-9449-5fa03b801416",
+      "DisplayName": "CommandPattern",
+      "ColorIndex": 6
+    },
+    "bfa2cb07-dfe0-4191-afb4-acbd16da99e3": {
+      "ProjectGuid": "bfa2cb07-dfe0-4191-afb4-acbd16da99e3",
+      "DisplayName": "AbstractFactoryPattern",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

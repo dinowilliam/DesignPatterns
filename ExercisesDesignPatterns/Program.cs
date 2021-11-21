@@ -104,8 +104,9 @@ namespace ExercisesDesignPatterns
                         DrawMainScreen();
                         break;
 
-                    case 8:                        
-
+                    case 8:
+                        var pocAbstractFactory = new PocAbstractFactory();
+                        pocAbstractFactory.StartAbstractFactoryTest();
                         DrawMainScreen();
                         break;
 
