@@ -40,7 +40,12 @@
       "ProjectGuid": "bfa2cb07-dfe0-4191-afb4-acbd16da99e3",
       "DisplayName": "AbstractFactoryPattern",
       "ColorIndex": 7
+    },
+    "082de1df-e786-4d7c-bb93-e130dd1f4ac0": {
+      "ProjectGuid": "082de1df-e786-4d7c-bb93-e130dd1f4ac0",
+      "DisplayName": "TemplateMethodPattern",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
