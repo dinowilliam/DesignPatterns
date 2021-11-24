@@ -33,16 +33,16 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                        Creational Patterns:                                                         |");
             Console.WriteLine("|                                            1 - Singleton Pattern (Default)                                          |");
             Console.WriteLine("|                                            2 - Singleton Pattern (Generics)                                         |");
-            Console.WriteLine("|                                            7 - Factory Pattern                                                      |");
-            Console.WriteLine("|                                            8 - Abstract Factory Pattern                                             |");
+            Console.WriteLine("|                                            3 - Factory Pattern                                                      |");
+            Console.WriteLine("|                                            4 - Abstract Factory Pattern                                             |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|                                         Structural Patterns:                                                        |");
-            Console.WriteLine("|                                            3 - Adapter Pattern                                                      |");
-            Console.WriteLine("|                                            4 - Decorator Pattern                                                    |");
-            Console.WriteLine("|                                            5 - Facade Pattern                                                       |");
+            Console.WriteLine("|                                            5 - Adapter Pattern                                                      |");
+            Console.WriteLine("|                                            6 - Decorator Pattern                                                    |");
+            Console.WriteLine("|                                            7 - Facade Pattern                                                       |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|                                         Behavioral Patterns:                                                        |");
-            Console.WriteLine("|                                            6 - Command Pattern                                                      |");
+            Console.WriteLine("|                                            8 - Command Pattern                                                      |");
             Console.WriteLine("|                                            9 - Template Method Pattern                                              |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
@@ -78,44 +78,45 @@ namespace ExercisesDesignPatterns
                         break;
 
                     case 3:
-                        var pocAdapter = new PocAdapter();
-                        pocAdapter.StartAdapterTest();
-
-                        DrawMainScreen();
-                        break;
-
-                    case 4:
-                        var pocDecorator = new PocDecorator();
-                        pocDecorator.StartDecoratorTest();
-                        DrawMainScreen();
-                        break;
-
-                    case 5:
-                        var pocFacade = new PocFacade();
-                        pocFacade.StartFacadeTest();
-
-                        DrawMainScreen();
-                        break;
-
-                    case 6:
-                        var pocCommand = new PocCommand();
-                        pocCommand.StartCommandTest();
-
-                        DrawMainScreen();
-                        break;
-
-                    case 7:
                         var pocFactory = new PocFactory();
                         pocFactory.StartFactoryTest();
 
                         DrawMainScreen();
                         break;
 
-                    case 8:
+                    case 4:
                         var pocAbstractFactory = new PocAbstractFactory();
                         pocAbstractFactory.StartAbstractFactoryTest();
                         DrawMainScreen();
                         break;
+
+                    case 5:
+                        var pocAdapter = new PocAdapter();
+                        pocAdapter.StartAdapterTest();
+
+                        DrawMainScreen();
+                        break;
+
+                    case 6:
+                        var pocDecorator = new PocDecorator();
+                        pocDecorator.StartDecoratorTest();
+                        DrawMainScreen();
+                        break;
+
+                    case 7:
+                        var pocFacade = new PocFacade();
+                        pocFacade.StartFacadeTest();
+
+                        DrawMainScreen();
+                        break;
+
+                    case 8:
+                        var pocCommand = new PocCommand();
+                        pocCommand.StartCommandTest();
+
+                        DrawMainScreen();
+                        break;
+                  
 
                     case 9:
                         var pocTemplateMethod = new PocTemplateMethod();
