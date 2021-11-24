@@ -1,7 +1,7 @@
 ﻿/*************************************************************************************************************************************************
  * Develop by William Ferreira de Paula
  * In 05/01/2015
- * Exercices and Concept Proves
+ * Exercices and Proves of Concept 
  * Exercises Design Patterns
  *************************************************************************************************************************************************/
 
@@ -15,6 +15,7 @@ namespace ExercisesDesignPatterns
         static void Main(string[] args)
         {
             DrawMainScreen();           
+
         }
 
         public static void DrawMainScreen()
@@ -29,14 +30,19 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|                                        Options:                                                                     |");
             Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                        Creational Patterns:                                                         |");
             Console.WriteLine("|                                            1 - Singleton Pattern (Default)                                          |");
             Console.WriteLine("|                                            2 - Singleton Pattern (Generics)                                         |");
+            Console.WriteLine("|                                            7 - Factory Pattern                                                      |");
+            Console.WriteLine("|                                            8 - Abstract Factory Pattern                                             |");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                         Structural Patterns:                                                        |");
             Console.WriteLine("|                                            3 - Adapter Pattern                                                      |");
             Console.WriteLine("|                                            4 - Decorator Pattern                                                    |");
             Console.WriteLine("|                                            5 - Facade Pattern                                                       |");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                         Behavioral Patterns:                                                        |");
             Console.WriteLine("|                                            6 - Command Pattern                                                      |");
-            Console.WriteLine("|                                            7 - Factory Pattern                                                      |");
-            Console.WriteLine("|                                            8 - Abstract Factory Pattern                                             |");
             Console.WriteLine("|                                            9 - Template Method Pattern                                              |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
