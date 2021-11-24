@@ -21,8 +21,8 @@ namespace ExercisesDesignPatterns.POCS
             line = new Line();            
         }
 
-        public void StartTemplateMethodTest()
-        {
+        public void StartTemplateMethodTest() {
+
             Console.Clear();
             Console.WriteLine("|******************************************************************************|");
             Console.WriteLine("|              Exercise about Template Method Design Pattern                   |");
@@ -31,6 +31,8 @@ namespace ExercisesDesignPatterns.POCS
             circle.Radius = 10;
             circle.Center = 55;
             circle.Draw(graphics);
+
+            graphics.AddList("");
 
             line.Begin = 125;
             line.End = 26;
