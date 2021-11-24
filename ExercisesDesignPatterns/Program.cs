@@ -37,6 +37,7 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                            6 - Command Pattern                                                      |");
             Console.WriteLine("|                                            7 - Factory Pattern                                                      |");
             Console.WriteLine("|                                            8 - Abstract Factory Pattern                                             |");
+            Console.WriteLine("|                                            9 - Template Method Pattern                                              |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|*********************************************************************************************************************|");
@@ -109,6 +110,13 @@ namespace ExercisesDesignPatterns
                         pocAbstractFactory.StartAbstractFactoryTest();
                         DrawMainScreen();
                         break;
+
+                    case 9:
+                        var pocTemplateMethod = new PocTemplateMethod();
+                        pocTemplateMethod.StartTemplateMethodTest();
+                        DrawMainScreen();
+                        break;
+                        
 
                     case 0:
                         Environment.Exit(0);

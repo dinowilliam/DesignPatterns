@@ -41,8 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TemplateMethod.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Contracts\IGraphics.cs" />
+    <Compile Include="Resources\Graphics.cs" />
+    <Compile Include="Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
