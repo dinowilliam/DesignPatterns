@@ -44,6 +44,8 @@ namespace ExercisesDesignPatterns
             Console.WriteLine("|                                         Behavioral Patterns:                                                        |");
             Console.WriteLine("|                                            8 - Command Pattern                                                      |");
             Console.WriteLine("|                                            9 - Template Method Pattern                                              |");
+            Console.WriteLine("|                                                                                                                     |");
+            Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|                                            0 - Exit                                                                 |");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|*********************************************************************************************************************|");
